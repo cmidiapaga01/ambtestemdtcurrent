@@ -10,13 +10,7 @@ import Contact from './pages/Contact';
 import Container from './components/Container';
 
 function App() {
-  useEffect(() => {
-    const tagManagerArgs = {
-      gtmId: 'GTM-MZBZQDJ5'
-    };
-    TagManager.initialize(tagManagerArgs);
-  }, []);
-
+  
   return (
     <ChakraProvider>
       <Router>
